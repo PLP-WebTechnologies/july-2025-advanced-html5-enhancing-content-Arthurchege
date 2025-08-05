@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width initial-scale=1.0">
+    
+     <title>
+      Music Journey
+     </title>
+
+  </head>
+
+  <body>
+
+    <header>
+        <h1>
+          Introduction
+        </h1>
+        <p>
+          Hello my name is Arthur I'm a music instructor. Welcome to my world!
+        </p>
+    </header>
+
+
+    <section>
+      <h2>
+        I teach a variety of instruments.
+      </h2>
+      <ol>
+        <li>Piano</li>
+        <li>Guitar</li>
+        <li>Violin</li>
+      </ol>
+
+      <h2>
+        Some of my students include:
+      </h2>
+      <ul>Polycarp Otieno</ul>
+      <ul>Shantel Chichi</ul>
+      <ul>Jabuzo Jabuzo</ul>
+    </section>
+
+    <section>
+      <h2>My schedule is as follows.</h2>
+
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Day</th>
+            <th>Instrument</th>
+            <th>Time</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Monday</td>
+            <td>Piano</td>
+            <td>10 AM – 12 PM</td>
+          </tr>
+          <tr>
+            <td>Wednesday</td>
+            <td>Guitar</td>
+            <td>2 PM – 4 PM</td>
+          </tr>
+          <tr>
+            <td>Friday</td>
+            <td>Violin</td>
+            <td>11 AM – 1 PM</td>
+          </tr>
+        </tbody>
+
+      </table>
+    </section>
+
+    <section>
+      <h2>Some learning materials to help you along the way.</h2>
+
+      <figure>
+        <figcaption>🎵 Sample Piano Piece:</figcaption>
+        <audio controls>
+          <source src="Piano-sample.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+      </figure>
+
+      <figure>
+        <figcaption>🎥 Beginner Guitar Demo:</figcaption>
+        <video width="320" controls>
+          <source src="https://videos.pexels.com/video-files/854923/854923-hd_1920_1080_25fps.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </figure>
+    </section>
+
+    <section>
+      <h2>Book a session</h2>
+      <form>
+        <fieldset>
+          <legend>Quick Sign-Up</legend>
+
+          <label for="fullname">Full Name</label>
+          <input type="text" id="fullname" name="fullname" required placeholder="e.g. Mary Mwatate" autocomplete="name">
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required placeholder="alphnse@gmail.com" autocomplete="email">
+
+          <label for="instrument">Choose Instrument</label>
+          <select id="instrument" name="instrument" required>
+            <option value="">-- Select --</option>
+            <option value="piano">Piano</option>
+            <option value="guitar">Guitar</option>
+            <option value="drums">Drums</option>
+          </select>
+
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="0712345678">
+
+          <button type="submit">Submit</button>
+        </fieldset>
+      </form>
+    </section>
+    
+  </body>
+</html>
